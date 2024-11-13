@@ -1,82 +1,78 @@
-# ☕ Coffee Shop Sales Dashboard Analysis
+# ☕ Coffee Shop Sales Analysis 📊
 
-## 📋 Objective
-The goal of this Power BI project is to provide an in-depth analysis of a coffee shop’s sales performance. The dashboard enables management to recognize patterns, identify peak times, and make data-driven improvements to enhance sales strategies.
+### Project Overview 📝
+This project analyzes coffee shop sales data using Power BI, providing actionable insights to improve sales performance. Key insights include trends in total sales, orders, quantities sold, location-based performance, and sales patterns over time. The goal is to identify key drivers of sales and explore growth opportunities.
 
-## 📝 Project Scope and Problem Definition
-This analysis aims to address specific business challenges:
-- 📊 Identify sales trends and fluctuations over time.
-- 📅 Compare weekday vs. weekend sales.
-- 🏪 Track sales contributions by store location and product category.
-- 🔍 Highlight high-performing products and analyze sales patterns by day and hour.
+---
 
-By analyzing these areas, the dashboard provides actionable insights to help drive sales and operational improvements.
+## 🚀 Objective
+To equip the coffee shop with data-driven insights by examining:
+- Total sales, orders, and quantities sold each month 📅
+- Sales patterns across weekdays, weekends, and various store locations 🌎
+- Daily sales trends and product category performance 📈
+- Identification of top products by sales volume 🥇
+- Hourly sales patterns for better staffing and promotional planning ⏰
 
-## 🛠️ Tools and Technologies
-- **Microsoft Excel**: Initial data cleaning, preliminary calculations, and transformations.
-- **Power BI**: Dynamic data visualization, transformation, and detailed analysis.
+---
 
-## 🔄 Data Preparation and Transformation
-### Excel
-- **Data Type Standardization**: Formatted columns for sales, quantity, and order IDs as numeric values.
-- **Null Handling**: Replaced missing values using the median to ensure data integrity.
-- **Consistent Labels**: Standardized names for product categories and locations.
-- **Date Formatting**: Unified date formats for easy time-based analysis.
+## 🛠️ Tools Used
+- **Excel**: Data cleaning and initial preparation.
+- **Power BI**: Advanced data visualization and Exploratory Data Analysis (EDA).
 
-### Power BI
-- **Data Modeling**: Created a date table to link with sales data for time-based filtering.
-- **Data Transformation**: Used Power Query to clean and standardize data (removed duplicates, validated entries).
-- **Conditional Formatting**: Applied to highlight key metrics and trends.
+---
 
-## 📊 Visual Analytics and Key Features
+## 🔄 Data Cleaning & Transformation
+1. **Data Types**: Ensured consistent formatting for numeric values (sales amounts, quantities).
+2. **Handling Null Values**: Replaced missing values with mean/median values for accuracy.
+3. **Date Standardization**: Standardized date formats for consistency.
+4. **Data Validation**: Applied rules to maintain data accuracy and prevent errors.
 
-1. **Total Sales, Orders, and Quantity Analysis**:
-   - **Cards and Line Charts**: Display monthly totals with month-over-month variation.
-  
-2. **Sales by Weekdays vs. Weekends**:
-   - **Pie Chart**: Visualizes sales split between weekdays and weekends.
+---
 
-3. **Store Location Performance**:
-   - **Bar Chart**: Shows store-wise sales, including month-over-month comparison metrics.
+## 📐 Data Modeling
+A date table was created in Power BI for time-based analysis, connected to the transaction table via a shared date column for smooth filtering and aggregation.
 
-4. **Daily Sales Trends**:
-   - **Column Chart with Average Line**: Highlights daily sales with an average sales reference line.
+---
 
-5. **Product Category Sales Breakdown**:
-   - **Bar Chart**: Details the sales performance of different product categories.
+## 📊 Key Performance Indicators (KPIs)
+1. **Total Sales Analysis**
+   - Monthly total sales with Month-over-Month (MoM) change and differences.
+2. **Total Orders Analysis**
+   - Monthly order count with MoM change and difference.
+3. **Total Quantity Sold Analysis**
+   - Monthly quantity sold with MoM variation and difference.
 
-6. **Top 10 Best-Selling Products**:
-   - **Bar Chart**: Highlights the top 10 products by sales volume.
+---
 
-7. **Sales Patterns by Days and Hours**:
-   - **Matrix Heat Map**: Shows peak sales by day and hour, with tooltips for details.
+## 📈 Visualizations
+1. **Calendar Heat Map** 📅: Color-coded for daily sales performance.
+2. **Sales by Weekdays vs. Weekends** 📆: Pie chart showing weekday and weekend sales trends.
+3. **Sales by Store Location** 📍: Bar chart comparing month-over-month sales by location.
+4. **Daily Sales with Average Line** 🔍: Column chart to highlight days with above/below-average performance.
+5. **Sales by Product Category** 🍫: Bar chart displaying performance across categories.
+6. **Top 10 Products by Sales** 🏆: Quick view of the highest-selling products.
+7. **Hourly Sales Patterns** ⏰: Heat map matrix showing sales by day and hour.
 
-8. **Calendar Heat Map**:
-   - **Dynamic Heat Map**: Adjusts to the selected month, with color intensity representing sales volume per day.
+---
 
-## ❓ Exploratory Data Analysis (EDA) Questions Addressed
-- What is the trend in total sales? 📈
-- How do orders and quantities sold vary monthly? 📦
-- Are there differences in sales between weekdays and weekends? 📅
-- Which store locations perform best? 🏆
-- Which product categories contribute most to revenue? 🛍️
-- When are the peak sales times by day and hour? ⏰
+## 🔍 Exploratory Data Analysis (EDA)
+Key insights gained from analysis:
+- 📅 Monthly sales trends and total sales.
+- 📈 Trends in orders and quantities over time.
+- 📆 Comparison of weekday vs. weekend sales performance.
+- 🌍 Store location-based performance trends.
+- ⭐ Top-selling products and product categories.
+- 🕒 Hourly sales trends, guiding staffing and promotions.
 
-## 📐 Visualizations and Dashboard Design
-- **Cards and Line Charts**: Overview of total sales, orders, and quantities over time.
-- **Pie Chart**: Breakdown of weekday vs. weekend sales.
-- **Bar and Column Charts**: For store location and product category analysis.
-- **Matrix Chart**: Detailed view of hourly sales patterns.
-- **Calendar Map**: Interactive heat map with daily sales insights.
+---
 
-## 📈 Project Insights and Outcomes
-The Coffee Shop Sales Analysis dashboard enables management to:
-- Understand sales patterns by time, location, and product.
-- Identify top-performing products and categories.
-- Align staffing and promotions with peak sales times.
-- Take corrective actions for underperforming locations or products.
-
-This data-driven approach to sales analysis supports strategic decision-making and helps boost profitability and customer satisfaction.
+## 🎯 Project Outcomes
+The Power BI dashboard provided actionable insights, helping the coffee shop:
+- Identify peak sales times for optimal staffing decisions.
+- Recognize top-selling product categories to adjust inventory.
+- Compare store locations for resource allocation.
+- Improve marketing strategies based on weekday/weekend performance.
+- Strengthen overall decision-making with data-backed insights.
 
 ---
 
